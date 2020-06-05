@@ -1,0 +1,70 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    margin:0;
+    padding:0;
+    background-image: url(Beautiful-Stars-Landscape-Background-Image-.jpeg);
+
+}
+
+
+
+.box{
+    width:300px;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+    
+}
+
+.box h1{
+    font-size: 35px;
+    float: left;
+    padding: 13px 0;
+    border-bottom: 5px solid skyblue;
+margin-bottom: 35px;
+}
+
+.sign{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid skyblue;
+    
+}
+
+.sign i{
+    float: left;
+    width: 26px;
+color: white;
+
+}
+
+.sign input{
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px 0 10px;
+padding-left: 5px;
+border-radius: 5px;
+}
+button{
+    margin-left: 54px;
+    border:2px solid skyblue;
+        padding:5px;
+    width: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-left: 50px;
+
+}
+button:hover{
+    background-color: skyblue;
+    border-color: #009900;
+    
+}
+
